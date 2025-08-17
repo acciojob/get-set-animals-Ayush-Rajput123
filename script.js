@@ -3,10 +3,10 @@ class Animal {
 	constructor(species){
 		this._species=species
 	}
-	get species{
+	get species() {
 			return this._species
 		}
-    makesound(){
+    makeSound(){
 		console.log("The "+this._species+" makes a sound")
 	}
 }
